@@ -338,9 +338,13 @@ h6 {
 .customers-icon {
   fill: currentColor;
 }
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--pressed-state-color);
+}
+
 .customers-link:hover > .customers-icon,
-.customers-link:focus > .customers-icon
- {
+.customers-link:focus > .customers-icon {
   fill: var(--pressed-state-color);
 }
 
