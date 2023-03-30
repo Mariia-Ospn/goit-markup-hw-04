@@ -209,8 +209,7 @@ h6 {
   border: solid transparent;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:hover {
   background-color: var(--pressed-state-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -371,8 +370,7 @@ h6 {
   background-color: var(--secondary-background-color);
   border: 1px solid #e7e9fc;
 }
-.focus-btn:hover,
-.focus-btn:focus {
+.focus-btn:hover {
   color: #ffffff;
   background-color: var(--pressed-state-color);
   border: 1px solid transparent;
