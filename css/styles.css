@@ -420,6 +420,8 @@ h6 {
 }
 .footer-logo-link {
   padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -432,7 +434,7 @@ h6 {
 }
 
 .footer-text {
-  margin-top: 16px;
+  margin-top: 0;
   margin-bottom: 0;
   width: 264px;
 
