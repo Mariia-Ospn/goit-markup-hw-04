@@ -209,7 +209,8 @@ h6 {
   border: solid transparent;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--pressed-state-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -342,12 +343,11 @@ h6 {
 .customers-link:focus {
   border: 1px solid var(--pressed-state-color);
 }
-
+ 
 .customers-link:hover > .customers-icon,
 .customers-link:focus > .customers-icon {
   fill: var(--pressed-state-color);
 }
-
 .our-works-section {
   padding-top: 96px;
 }
@@ -374,7 +374,8 @@ h6 {
   background-color: var(--secondary-background-color);
   border: 1px solid #e7e9fc;
 }
-.focus-btn:hover {
+.focus-btn:hover,
+.focus-btn:focus {
   color: #ffffff;
   background-color: var(--pressed-state-color);
   border: 1px solid transparent;
